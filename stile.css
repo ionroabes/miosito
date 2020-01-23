@@ -1,0 +1,329 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.bg-img{
+    background-size: cover;
+    background-image: url("img/parallax1.jpg");
+    height: 384px;
+    display: flex;
+    justify-content: center;
+}
+
+i{
+    margin-right: 5px;
+}
+
+.logo{
+    background-color: #000;
+    color: #fff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    padding-top: 35px;
+}
+
+.mianav{
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.cerca{
+    padding: 0px;
+    display: flex;
+    align-content: center;
+    list-style-type: none;
+}
+
+form.ricerca{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid white;
+    padding: 5px;
+}
+
+input.ricerca{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #07051a;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+form.ricerca:hover{
+    width: 200px;
+    cursor: pointer;
+}
+
+form.ricerca:hover input{
+    display: block;
+}
+
+form.ricerca:hover .fa{
+    background: #07051a;
+    color: white;
+}
+
+
+
+
+h2.logo{
+    background-color: #000;
+    color: #fff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    width: 25%;
+}
+
+h2{
+    font-family: 'Rubik', sans-serif;
+}
+
+.tuttoschermo{
+    width: 100%;
+}
+
+.centra{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.titoloabout{
+    margin-top: 100px;
+    color: #666;
+}
+
+.pabout{
+   margin-top: 20px;
+   font-style: italic;
+   font-size: 15px;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #666;
+}
+
+.distanziap{
+    margin-top: 30px;
+}
+
+.meimg{
+    width: 80%;
+}
+
+.distanziap50{
+    margin-top: 50px;
+}
+
+
+
+h5{
+    font-family: 'Lato', sans-serif;
+    color: #666; 
+}
+
+.distanziap15{
+    margin-bottom: 15px;
+}
+
+.grigio{
+    background-color: #606060;
+}
+
+.sizebig{
+    font-size: 20px;
+}
+
+.white{
+    color: #fff;
+}
+
+.centravert{
+    margin-top: 15px;
+}
+
+.altezza{
+    height: 30px;
+}
+
+.bg-img2{
+    background-image: url(img/parallax2.jpg);
+    background-repeat: round ;
+    height: 400px;
+}
+
+.centravert2{
+    padding-top: 200px;
+}
+
+.spaziolettere{
+    letter-spacing: 5px;
+}
+
+.distanziap70{
+    margin-top: 70px;
+}
+
+.altezza2{
+    height: 160px;
+}
+
+.img43{
+    width: 200px;
+    height: 150px;
+}
+
+.bg-img3{
+    background-image: url(img/parallax3.jpg);
+    background-repeat:round ;
+    height: 394px;
+    margin-top: 50px;
+}
+
+.mappa{
+    width: 300px;
+    height: 150px;
+}
+
+.spaziosopra{
+    padding-top: 5px;
+}
+
+.distanziai{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.piuvicini{
+    margin-block-end: 5px;
+}
+
+.piccolo{
+    margin-top: 15px;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.pocospazio{
+    margin-bottom: 3px;
+}
+
+.pabout2{
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+.form-control{
+    border-radius: 0;
+}
+
+.bg-black{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.destra{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 150px;
+}
+
+.footergrigio{
+    background-color: #606060;
+    height: 400px;
+}
+
+.top{
+    background-color: white;
+    border: none;
+    
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.ptop{
+    font-family:'Rubik', sans-serif ;
+    font-weight: bold;
+    margin-bottom: 0;
+
+}
+
+.imgfooter{
+    width: 50px;
+    height: 35px;
+}
+
+.centravert3{
+    padding-top: 100px;
+}
+
+.imgfooter2{
+    width: 30px;
+    height: 32px;
+    margin-left: -5px ;
+}
+
+.imgfooter3{
+    width: 35px;
+    height: 38px;
+}
